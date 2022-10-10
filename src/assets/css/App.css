@@ -1,0 +1,83 @@
+body {
+  /* background-image: url("https://images.pexels.com/photos/7038115/pexels-photo-7038115.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;    */
+  height: 100%;
+  background-repeat: no-repeat;
+  background: url(../css/images/cottonbro.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.container{
+  padding: 30px;
+}
+
+.container-flud {
+  width: 100%;
+}
+
+.m-pred {
+  justify-content: center;
+}
+
+.imput-group {
+  width: 40%;
+  left: 30%;
+  position: relative;
+}
+
+.btn{
+  position: relative;
+  left: 56%;  
+  top: -38px;
+}
+
+.card{
+  max-width: 80%;
+}
+
+.card-title{
+  position: absolute;
+  padding: 20px;
+}
+
+.card-date{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 60px;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 260px;
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 320px;
+}
+
+.btnf {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  background-color: #0161debf;
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  color: rgb(245, 245, 245);
+  font-family:  'Nunito', sans-serif;
+
+  cursor: pointer;
+
+}
